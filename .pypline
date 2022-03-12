@@ -1,5 +1,6 @@
 # hello world
 
 build:
-    - echo hello from ci-tester
-    - echo another hello
+  - echo hello from ci-tester
+  - echo another hello
+  - docker build -t ci-tester:latest .
